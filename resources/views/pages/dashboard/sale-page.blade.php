@@ -345,7 +345,7 @@
                 let res=await axios.post("/invoice-create",Data)
                 hideLoader();
                 if(res.data===1){
-                    window.location.href='/invoicePage'
+                    window.location.href='/invoice-page'
                     successToast("Invoice Created");
                 }
                 else{
