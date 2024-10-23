@@ -50,7 +50,16 @@
                 </div>
                 <br/>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3 p-3">
+                    <div class="d-flex justify-content-center items-center">
+                        <div class="col-12 col-md-6 col-lg-3 p-3">
+                            <div class="card px-0 text-center">
+                                <img class=" card-img-top mb-3 w-100" src="{{asset('/images/man.jpg')}}" alt="">
+                                <h5>Shahnewaz Ibrahim</h5>
+                                <p class="text-muted mb-4">CEO &amp; Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="col-12 col-md-6 col-lg-3 p-3">
                         <div class="card px-0 text-center">
                             <img class=" card-img-top mb-3 w-100" src="{{asset('/images/man.jpg')}}" alt="">
                             <h5>Danny Bailey</h5>
@@ -77,7 +86,7 @@
                             <h5>Danny Bailey</h5>
                             <p class="text-muted mb-4">CEO &amp; Founder</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -90,10 +99,10 @@
                     <div class="col-12 col-lg-5 mb-5 mb-lg-0">
                         <h2 class="fw-bold mb-5">Reach Out to Us: Let's Connect and Explore Opportunities Together</h2>
                         <h4 class="fw-bold">Address</h4>
-                        <p class="text-muted mb-5">1686 Geraldine Lane New York, NY 10013</p>
+                        <p class="text-muted mb-5">Baruntake, Dhaka-cant, Dhaka 1206</p>
                         <h4 class="fw-bold">Contact Us</h4>
-                        <p class="text-muted mb-1">hello@wireframes.org</p>
-                        <p class="text-muted mb-0">+ 7-843-672-431</p>
+                        <p class="text-muted mb-1">shahnewaz886@gmail.com</p>
+                        <p class="text-muted mb-0">+ 01521480800</p>
                     </div>
                     <div class="col-12 col-lg-6 offset-lg-1">
                         <form action="#">

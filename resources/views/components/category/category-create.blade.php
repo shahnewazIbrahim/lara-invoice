@@ -26,6 +26,10 @@
 
 
 <script>
+    document.getElementById("save-form").addEventListener('submit', (event)=> {
+        event.preventDefault();
+        
+    })
     async function Save() {
         let categoryName = document.getElementById('categoryName').value;
         if (categoryName.length === 0) {
