@@ -11,7 +11,12 @@ use Illuminate\View\View;
 class UserController extends Controller
 {
 
-    function LoginPage():View{
+    function LoginPage(){
+        
+        if (request()->cookie('token')) {
+            return redirect('/dashboard');
+        }
+
         return view('pages.auth.login-page');
     }
 
